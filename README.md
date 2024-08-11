@@ -32,6 +32,7 @@ python mutation_fuzzer.py <python_program> <input_file>
 python mutation_fuzzer.py example.py example.in
 ```
 *Note 2: If you use your input file. Be sure to back up your input file as well since this program will make change to your input file
+
 3. Your input file will be changed. If you use an example input file ```example.in```. Originally like this:
 ```
 Monday
@@ -40,6 +41,7 @@ Holiday
 Monday
 ```
 It will change randomly to something new. If you run it again, you will see that it will change as well.
+
 4. Now you can have fun and try with different other Python program and test suite.
 
 ## Note for developer
